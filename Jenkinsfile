@@ -5,7 +5,6 @@ pipeline {
         maven 'maven3'
     }
     
-
     stages {
         stage('compile') {
             steps {
