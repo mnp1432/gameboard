@@ -4,6 +4,7 @@ pipeline {
     tools {
         maven 'maven3'
     }
+    
 
     stages {
         stage('compile') {
