@@ -6,11 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('Git checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/mnp1432/gameboard.git'
-            }
-        }
         stage('compile') {
             steps {
                 sh 'mvn compile'
